@@ -93,40 +93,7 @@
         .testimonial>div>img{
             width: 100px !important;
         }
-        
-    }
-    
-    
-    
-    /*		Wide Mobile Layout: 480px.
-            Gutters: 24px.
-            Outer margins: 22px.
-            Inherits styles from: Default Layout, Mobile Layout.
-    ------------------------------------------------------------
-    cols    1     2      3      4      5
-    px      68    160    252    344    436    */
-    
-    @media only screen and (min-width: 480px) and (max-width: 767px) {
-        
-        body {
-            width: 436px;
-            padding: 36px 22px 48px;
+        .footerAll {
+            height: 480px;
         }
-    
-    }
-    
-    
-    /*	Retina media query.
-        Overrides styles for devices with a 
-        device-pixel-ratio of 2+, such as iPhone 4.
-    -----------------------------------------------    */
-    
-    @media 
-        only screen and (-webkit-min-device-pixel-ratio: 2),
-        only screen and (min-device-pixel-ratio: 2) {
-        
-        body {
-        
-        }
-        
     }
