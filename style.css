@@ -1,17 +1,6 @@
 /*---------Header Start--------*/
 header{
-    width: 100%;
-    height: 576px;
-    background: url("images/Illustration.png") no-repeat #F0FFF0;
-    background-position: 83% 75%;
-    background-size: 47%;
-}
-.navbar_nav{
-    margin-right: 0 !important;
-}
-.nav_header{
-    background: none !important;
-    padding-top: 18px;
+    background-color: #F0FFF0;
 }
 #navbarText{
     width: 400px;
@@ -33,14 +22,14 @@ header{
     list-style: none;
 }
 .menu li>a{
-    text-decoration: none;
-    padding: 10px 25px;
+    text-decoration: none !important;
+    padding: 10px 25px !important;
     font-family: Poppins !important;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 24px;
-    color: #000000;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 16px !important;
+    line-height: 24px !important;
+    color: #000000 !important;
 }
 .menu_sing_in{
     background: #21B573;
@@ -48,15 +37,25 @@ header{
     color: #fff !important;
 }
 .menu li a:hover{
-    color: #2c2b2b ;
+    color: #2c2b2b !important;
 }
 .menu_sing_in:hover{
     color: rgb(219, 219, 219) !important;
+}
+.bannerMain{
+    background-color: #F0FFF0 !important;
 }
 .banner{
     width: 405px;
     float: left;
     margin-top: 50px;
+}
+.banner_text{
+    width: 100%;
+    height: 576px;
+    background: url("images/Illustration.png") no-repeat #F0FFF0;
+    background-position: 83% 75%;
+    background-size: 47%;
 }
 .banner>h2{
     margin-bottom: 10px;
@@ -296,3 +295,8 @@ footer{
     padding-top: 36px;
 }
 /*---------FooterAll End--------*/
+
+
+.navbar{
+    background-color: #F0FFF0 !important;
+}
