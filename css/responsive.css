@@ -1,0 +1,132 @@
+/*		Tablet Layout: 768px.
+            Gutters: 24px.
+            Outer margins: 28px.
+            Inherits styles from: Default Layout.
+    -----------------------------------------------------------------
+    cols    1     2      3      4      5      6      7      8
+    px      68    160    252    344    436    528    620    712    */
+    
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+        .menu {
+            margin-left: 0;
+            float: none;
+            padding: 0px 0 0 15px;
+            border-radius: 0 0 20px 20px;
+        }
+        .menu li{
+            float: none !important;
+            margin: 16px 0;
+        }
+        header {
+            width: 100%;
+            background-image: none !important;
+            
+        }
+        .banner_text{
+            background: url("../images/Illustration.png") no-repeat;
+            background-position-x: 0%;
+            background-position-y: 0%;
+            background-size: auto;
+            background-position: 100% 30%;
+            background-size: 61%;
+            width: 100%;
+            height: 500px;
+        }
+        .allAboutDiv .card{
+            width: 47.5% !important;
+        }
+        .allAboutDiv .card:nth-child(2){
+            margin-right: 0 !important;
+        }
+        .onlineCoursesAll > .card {
+            width: 46% !important;
+            margin-right: 48px;
+            height: 500px;
+        }
+        .onlineCoursesAll > .card:nth-child(2) {
+            margin-right: 0 !important;
+        }
+        
+        
+        
+    }
+    
+    
+    
+    /*		Mobile Layout: 320px.
+            Gutters: 24px.
+            Outer margins: 34px.
+            Inherits styles from: Default Layout.
+    ---------------------------------------------
+    cols    1     2      3
+    px      68    160    252    */
+    
+    @media only screen and (max-width: 767px) {
+        .menu {
+            margin-left: 0;
+            float: none;
+            padding: 0px 0 0 15px;
+            border-radius: 0 0 20px 20px;
+        }
+        .menu li{
+            float: none !important;
+            margin: 16px 0;
+        }
+        .banner_text{
+            width: 100%;
+            height: 619px;
+            background: url("../images/Illustration.png") no-repeat #F0FFF0;
+            background-position: 52% 99%;
+            background-size: 81%;
+        }    
+        .allAboutDiv .card {
+            width: 100% !important;
+            margin-right: 0 !important;
+            margin-left: 0 !important;
+        }
+        .onlineCoursesAll > .card{
+            width: 100% !important;
+            margin-right: 0 !important;
+            margin-left: 0 !important;
+            height: 500px;
+        }
+        .testimonial>div>img{
+            width: 100px !important;
+        }
+        
+    }
+    
+    
+    
+    /*		Wide Mobile Layout: 480px.
+            Gutters: 24px.
+            Outer margins: 22px.
+            Inherits styles from: Default Layout, Mobile Layout.
+    ------------------------------------------------------------
+    cols    1     2      3      4      5
+    px      68    160    252    344    436    */
+    
+    @media only screen and (min-width: 480px) and (max-width: 767px) {
+        
+        body {
+            width: 436px;
+            padding: 36px 22px 48px;
+        }
+    
+    }
+    
+    
+    /*	Retina media query.
+        Overrides styles for devices with a 
+        device-pixel-ratio of 2+, such as iPhone 4.
+    -----------------------------------------------    */
+    
+    @media 
+        only screen and (-webkit-min-device-pixel-ratio: 2),
+        only screen and (min-device-pixel-ratio: 2) {
+        
+        body {
+        
+        }
+        
+    }
